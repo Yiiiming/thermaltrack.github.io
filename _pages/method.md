@@ -19,17 +19,17 @@ permalink: /method/
 
 ## Encoder-decoder design
 ![im]({{ site.url }}{{ site.baseurl }}/images/neural_network_design.png)
-  * Get vehicle trajectories from recorded GNSS/LiDAR data
-  * Calculate wheel track contact points from vehicle trajectories
-  * Project wheel track contact points to images as labels
+  * Use ResNet-18 as backbone of encoder
+  * Attention Gates focus on wheel tracks by amplifying rare pixel classes (addressing severe class imbalance).
+  * Atrous Convolutions preserve boundaries with multi-scale context. (handling spatial imbalance).
 
 ## Model training and validation
-  * Get vehicle trajectories from recorded GNSS/LiDAR data
-  * Calculate wheel track contact points from vehicle trajectories
-  * Project wheel track contact points to images as labels
+  * 10 epochs with a batch size of 4 and an image size of 512 x 512
+  * Adam optimizer with a learning rate scheduler starting at 1e-4
+  * L2 regularizer
 
 ## Predicted probability map
 ![im]({{ site.url }}{{ site.baseurl }}/images/probability_map.png)
-  * Get vehicle trajectories from recorded GNSS/LiDAR data
-  * Calculate wheel track contact points from vehicle trajectories
-  * Project wheel track contact points to images as labels
+  * The designed neural network outputs a pixel-wise probability map
+  * Each value ∈ [0,1] represents the predicted likelihood of the corresponding image pixel belonging to a wheel track
+

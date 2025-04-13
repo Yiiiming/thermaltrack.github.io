@@ -332,3 +332,6 @@ navigation:
     url: /code/              # Links to code.md
   - title: "Dataset"
     url: /dataset/           # Links to dataset.md
+
+home:
+  show_posts: false  # Hides "Recent Posts"

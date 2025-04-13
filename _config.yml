@@ -324,3 +324,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+navigation:
+  - title: "Platform Specs"
+    url: /platform-specs/    # Links to platform-specs.md
+  - title: "Code"
+    url: /code/              # Links to code.md
+  - title: "Dataset"
+    url: /dataset/           # Links to dataset.md

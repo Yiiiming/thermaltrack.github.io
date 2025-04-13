@@ -10,15 +10,5 @@ main:
     url: https://gatech.box.com/s/4zio5v1b05v8j6tzhy317vx4vc0kc7dp
 
   - title: "About"
-    url: /history/
+    url: /about/
 
-about:
-  - title: "About"
-    url:
-    children:
-      - title: "Project History"
-        url: /history/
-      - title: "Media"
-        url: /media/
-      - title: "Recent Press"
-        url: /recentpress/

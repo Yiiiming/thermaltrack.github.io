@@ -1,18 +1,12 @@
 ---
 layout: single
-title: Platform
-permalink: /platform/
+title: Method
+permalink: /method/
 
 ---
 
-![im]({{ site.url }}{{ site.baseurl }}/images/sensor_pod.jpg)
-
-  * Weight: 21kg
-  * Top speed: 27m/s (60 mph)
-  * Size: 1m long, 0.6m wide, 0.4m high
-  * Standard operating team: 2-3 people
-
-## Sensor pod
+## Self-supervised labeling
+![im]({{ site.url }}{{ site.baseurl }}/images/projected_wheel_tracks_2images.png)
   * High-precision IMU, raw data up to 1KHz
   * RTK-corrected GPS, position at 20Hz
   * Custom 3D printed mounts and enclosures

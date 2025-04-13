@@ -5,7 +5,7 @@ permalink: /platform/
 
 ---
 
-![im]({{ site.url }}{{ site.baseurl }}/images/autorally_platform_nobody.jpg)
+![im]({{ site.url }}{{ site.baseurl }}/images/sensor_pod.jpg)
 
   * Weight: 21kg
   * Top speed: 27m/s (60 mph)

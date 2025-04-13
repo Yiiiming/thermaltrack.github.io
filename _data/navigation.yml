@@ -3,6 +3,9 @@ main:
   - title: "Platform"
     url: /platform/
 
+  - title: "Method"
+    url: /method/
+
   - title: "Code"
     url: https://github.com/Yiiiming/ThermalTrack
 

@@ -1,8 +1,11 @@
 // Override theme's hardcoded header image styles
-.page__hero-image {
-  width: 30% !important;      // Adjust % as needed
-  max-width: 500px;          // Absolute max size
-  height: auto !important;   // Maintain aspect ratio
-  margin: 0 auto;            // Center alignment
-  padding: 20px 0;           // Add spacing if needed
+.page__hero {
+  &-image {
+    width: auto !important;  // Disables full-width forcing
+    max-width: 800px;      // Matches config.yml
+    height: 200px !important; 
+    object-fit: cover;      // Prevents distortion
+    margin: 0 auto;        // Centers the image
+    display: block;
+  }
 }

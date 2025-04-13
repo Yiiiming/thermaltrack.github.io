@@ -1,12 +1,24 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Platform Specs"
+    url: /platform/
+
+  - title: "Code"
+    url: https://github.com/AutoRally/autorally
+
+  - title: "Dataset"
+    url: https://gatech.box.com/s/4zio5v1b05v8j6tzhy317vx4vc0kc7dp
+
+  - title: "About"
+    url: /history/
+
+about:
+  - title: "About"
+    url:
+    children:
+      - title: "Project History"
+        url: /history/
+      - title: "Media"
+        url: /media/
+      - title: "Recent Press"
+        url: /recentpress/

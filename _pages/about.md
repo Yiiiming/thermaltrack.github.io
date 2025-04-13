@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "RASL"
-permalink: /history/
+permalink: /about/
 author_profile: false
 
 sidebar:

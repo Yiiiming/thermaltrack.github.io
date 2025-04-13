@@ -1,0 +1,11 @@
+// Override theme's hardcoded header image styles
+.page__hero {
+  &-image {
+    width: auto !important;  // Disables full-width forcing
+    max-width: 1200px;      // Matches config.yml
+    height: 400px !important; 
+    object-fit: cover;      // Prevents distortion
+    margin: 0 auto;        // Centers the image
+    display: block;
+  }
+}

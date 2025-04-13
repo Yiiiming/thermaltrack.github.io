@@ -325,8 +325,8 @@ defaults:
       share: true
       related: true
       header:
-        image_width: 1200   # Target width (pixels)
-        image_height: 400   # Target height
+        image_width: 800   # Target width (pixels)
+        image_height: 200   # Target height
 
 home:
   show_posts: false  # Hides "Recent Posts"

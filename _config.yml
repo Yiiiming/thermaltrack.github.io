@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
 description              : "RGB-Thermal fusion for wheel track detection in adverse conditions."
-url                      : "https://github.com/Yiiiming/thermaltrack.github.io"
+url                      : "https://Yiiiming.github.io/ThermalTrack"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Yiiiming/ThermalTrack"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"

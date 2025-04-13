@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Platform Specs
-permalink: /specs/
+title: Platform
+permalink: /platform/
 
 ---
 

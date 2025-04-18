@@ -1,6 +1,6 @@
 ---
 layout: single
-title:
+title: WADS
 permalink: /wads/
 
 ---

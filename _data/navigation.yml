@@ -12,6 +12,9 @@ main:
   - title: "Dataset"
     url: /dataset/
 
+  - title: "WADS"
+    url: /wads/
+
   - title: "About"
     url: /about/
 

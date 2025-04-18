@@ -1,53 +1,29 @@
 ---
 layout: single
-title: About
+title: RASL
 permalink: /about/
 
 ---
 
-## WADS ##
-  * Collected in the snow belt region of Michigan's Upper Peninsula
-  * First multi-modal dataset featuring dense point-wise labeled sequential LiDAR scans collected in severe winter weather
-  * Over 26 TB of multi modal data has been collected
-  * Over 7 GB of LiDAR point clouds (3.6 billion points) have been labeled
+![im]({{ site.url }}{{ site.baseurl }}/images/Husky_jackal.jpg)
 
-## Download ##
-  * Labeled sequences can be downloaded here wads.
-  * The dataset follows the semanticKITTI format. Please refer to the directory structure described there.
+## Overview ##
+The Robust Autonomous Systems Laboratory (RASL) focusses on research that improves autonomous systems’ ability to operate in adverse conditions. As we push these systems to their limits, we become well acquainted with their range of functionality. Measurement science, standards, and technology is necessary for defining this range. Our experience with pushing the envelope makes us uniquely poised to work with NIST in enabling robust autonomous systems.
 
-### License ###
+## Equipment ##
+  * 5x Clearpath Jackals (IP56, equipped with VLP-16 & Dual Cameras)
+  * 2x Clearpath Husky A200s (IP66)
+  * BlueRobotics ROV
+  * Luminar Iris
+  * Robosense Ruby 128-channel
+  * Ouster OS1 64-channel
+  * 3x Velodyne VLP-32c
+  * 2x Velodyne VLP-16
+  * RGB and thermal cameras
+  * 2x 1:5 scale RC testing platform
 
-This data is made available under the [Creative Commons Attribution-NonCommercial-ShareAlike license](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the data, but have to give appropriate credit and may not use the work for commercial purposes.
-The following works must be cited:
-
-The paper that introduces this dataset:
-```
-@misc{kurup2021dsor,
-	title={DSOR: A Scalable Statistical Filter for Removing Falling Snow from LiDAR Point Clouds in Severe Winter Weather}, 
-	author={Akhil Kurup and Jeremy Bos},
-	year={2021},
-	eprint={2109.07078},
-	archivePrefix={arXiv}
-}
-```
-
-And the original dataset:
-```
-@inproceedings{bos2020autonomy,
-	author = {Jeremy P. Bos and Derek Chopp and Akhil Kurup and Nathan Spike},
-	title = {{Autonomy at the end of the Earth: an inclement weather autonomous driving data set}},
-	volume = {11415},
-	booktitle = {Autonomous Systems: Sensors, Processing, and Security for Vehicles and Infrastructure 2020},
-	organization = {International Society for Optics and Photonics},
-	publisher = {SPIE},
-	pages = {36 -- 48},
-	keywords = {LiDAR, autonomous vehicles, robotics, autonomous systems},
-	year = {2020},
-	URL = {https://doi.org/10.1117/12.2558989}
-}
-```
-
-### Maintainers ###
-
-* Akhil Kurup <amkurup@mtu.edu>
-* Jeremy Bos <jpbos@mtu.edu>
+## Research ##
+  * LiDAR Benchmarking
+  * Adverse weather autonomy
+  * Off-road path planning
+  * Terrain generation

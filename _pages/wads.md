@@ -1,11 +1,9 @@
 ---
 layout: single
-title: "WADS"
+title: WADS
 permalink: /wads/
-author_profile: false
 
-sidebar:
-  nav: "wads"
+---
 
 ## WADS ##
   * Collected in the snow belt region of Michigan's Upper Peninsula

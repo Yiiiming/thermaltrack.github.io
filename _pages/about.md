@@ -7,34 +7,49 @@ author_profile: false
 sidebar:
   nav: "about"
 
-ogAutorally:
-  - url: images/autorallyOriginal.jpg
-    image_path: images/autorallyOriginal.jpg
-    alt: "original AutoRally platform"
-  - url: images/autorallyChassisOriginal.jpg
-    image_path: images/autorallyChassisOriginal.jpg
-    alt: "original AutoRally chassis"
-  - url: images/autorallyComputeOriginal.jpg
-    image_path: images/autorallyComputeOriginal.jpg
-    alt: "original AutoRally compute box"
+## WADS ##
+  * Collected in the snow belt region of Michigan's Upper Peninsula
+  * First multi-modal dataset featuring dense point-wise labeled sequential LiDAR scans collected in severe winter weather
+  * Over 26 TB of multi modal data has been collected
+  * Over 7 GB of LiDAR point clouds (3.6 billion points) have been labeled
 
-currentAutorally:
-  - url: images/platformBanner.png
-    image_path: images/platformBanner.png
-    alt: "current AutoRally platform"
----
+## Download ##
+  * Labeled sequences can be downloaded here wads.
+  * The dataset follows the semanticKITTI format. Please refer to the directory structure described there.
 
-The AutoRally project began in 2011 to support a DURIP grant for vision-based high-speed autonomous navigation. The original platform was developed by PhD student Brian Goldfain and Paul Drews, with help from masters student Rahul Ashok and supervision from professor James Rehg. A picture of the original AutoRally Platform is shown below.
+### License ###
 
-{% include gallery id="ogAutorally" caption="" class="full" %}
+This data is made available under the [Creative Commons Attribution-NonCommercial-ShareAlike license](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt the data, but have to give appropriate credit and may not use the work for commercial purposes.
+The following works must be cited:
 
-The first high-speed autonomous driving tests were conducted through a collaboration with PhD student Grady Williams, advised by Evanglos Theodorou, when his MPPI algorithm was ported to AutoRally and tasked with driving quickly around the oval GT-ARF track. This work led to the ICRA 2016 publication listed on the main project page. 
+The paper that introduces this dataset:
+```
+@misc{kurup2021dsor,
+	title={DSOR: A Scalable Statistical Filter for Removing Falling Snow from LiDAR Point Clouds in Severe Winter Weather}, 
+	author={Akhil Kurup and Jeremy Bos},
+	year={2021},
+	eprint={2109.07078},
+	archivePrefix={arXiv}
+}
+```
 
-Over several iterations, AutoRally was refined to support a broad range of autonomous vehicle experiments under the supervision of Brian Goldfain. Additional PhD students not already mentioned who contributed to the project include Kamil Saigol and Marcus Pereira. A mostly complete list of undergraduates who contributed to AutoRally include Cory Wacht, Matt Barulic, Orlin Velev, Sarah Selim, Dominic Pattison, Justin Zheng, Jeffrey McKendree, Luis Pimentel, Alexandra Miner, and Jason Gibson. The current version of AutoRally is shown below.
+And the original dataset:
+```
+@inproceedings{bos2020autonomy,
+	author = {Jeremy P. Bos and Derek Chopp and Akhil Kurup and Nathan Spike},
+	title = {{Autonomy at the end of the Earth: an inclement weather autonomous driving data set}},
+	volume = {11415},
+	booktitle = {Autonomous Systems: Sensors, Processing, and Security for Vehicles and Infrastructure 2020},
+	organization = {International Society for Optics and Photonics},
+	publisher = {SPIE},
+	pages = {36 -- 48},
+	keywords = {LiDAR, autonomous vehicles, robotics, autonomous systems},
+	year = {2020},
+	URL = {https://doi.org/10.1117/12.2558989}
+}
+```
 
-This work was made possible, in part, by the U.S. Army Research Office (ARO) through the Multidisciplinary University Research Initiative (MURI) award W911NF-11-1-0046 and Defense University Research Instrumentation Program (DURIP) awards W911NF-12-1-0377 and Office of Naval Research (ONR) DURIP N00014-17-1-2318.
+### Maintainers ###
 
-{% include gallery id="currentAutorally" caption="" class="full" %}
-
-Additional collaborations have expanded the AutoRally fleet to 6 vehicles at Georgia Tech. The fleet has supported the experimental results of numerous publications with research from the labs of James Rehg, Evangleos Theodorou, Byron Boots, and Panagiotis Tsiotras. PhD students, not already listed, who have used the platform for experiments include Nolan Wagener, Yunpeng Pan, Keuntaek Lee, and Changxi You.
-
+* Akhil Kurup <amkurup@mtu.edu>
+* Jeremy Bos <jpbos@mtu.edu>

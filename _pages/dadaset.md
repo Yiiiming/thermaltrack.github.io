@@ -5,7 +5,7 @@ permalink: /dataset/
 
 ---
 
-![im]({{ site.url }}{{ site.baseurl }}/images/sensor_pod.jpg)
+![im]({{ site.url }}{{ site.baseurl }}/images/image_000203.png)
 
 ## WADS
   We utilize WADS, a specialized dataset designed for autonomous vehicles and robot research in inclement winter weather. WADS focuses exclusively on challenging conditions such as heavy snowfall and occasional white-out scenarios, providing a robust platform for testing and development. WADS comprises images captured across diverse conditions, encompassing variations in road surfaces, weather, lighting, and terrain types, etc.

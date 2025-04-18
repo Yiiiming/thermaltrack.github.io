@@ -1,11 +1,9 @@
 ---
 layout: single
-title: "RASL"
+title: About
 permalink: /about/
-author_profile: false
 
-sidebar:
-  nav: "about"
+---
 
 ## WADS ##
   * Collected in the snow belt region of Michigan's Upper Peninsula

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Dataset
+title:
 permalink: /dataset/
 
 ---

@@ -7,7 +7,7 @@ permalink: /platform/
 
 ![im]({{ site.url }}{{ site.baseurl }}/images/sensor_pod.jpg)
 
-![im]({{ site.url }}{{ site.baseurl }}/images/sensor_pod_winter.jpg)
+![im]({{ site.url }}{{ site.baseurl }}/images/sensor_pod_winter.png)
 
 ## Sensor pod
   * Reconfigurable and multimodal sensor pod

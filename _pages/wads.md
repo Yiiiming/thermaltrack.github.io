@@ -1,11 +1,13 @@
 ---
 layout: single
-title: WADS
+title:
 permalink: /wads/
 
 ---
 
-## WADS ##
+![im]({{ site.url }}{{ site.baseurl }}/images/wads_data.png)
+
+## Winter Adverse Driving dataSet (WADS) ##
   * Collected in the snow belt region of Michigan's Upper Peninsula
   * First multi-modal dataset featuring dense point-wise labeled sequential LiDAR scans collected in severe winter weather
   * Over 26 TB of multi modal data has been collected

@@ -12,7 +12,7 @@ permalink: /method/
   * Project wheel track contact points to images as labels
 
 ## Image fusion
-![im]({{ site.url }}{{ site.baseurl }}/images/image_fusion.png)
+![im]({{ site.url }}{{ site.baseurl }}/images/Input_3d.png)
   * The RGB image and thermal image are downsampled to 512 x 512 pixels
   * Image alignment via a static homography transformation
   * Contrast Limited Adaptive Histogram Equalization (CLAHE) is applied to enhance the contrast of aligned images
@@ -24,8 +24,8 @@ permalink: /method/
   * Atrous Convolutions preserve boundaries with multi-scale context. (handling spatial imbalance).
 
 ## Model training and validation
-  * 10 epochs with a batch size of 4 and an image size of 512 x 512
-  * Adam optimizer with a learning rate scheduler starting at 1e-4
+  * 10 epochs with batch size of 4 and image size of 512 x 512
+  * Adam optimizer with a learning rate schedule start at 1e-4
   * L2 regularizer
 
 ## Predicted probability map

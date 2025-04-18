@@ -52,4 +52,4 @@ And the original dataset:
 ### Maintainers ###
 
 * Akhil Kurup <amkurup@mtu.edu>
-* Jeremy Bos <jpbos@mtu.edu>
+* Jeremy P. Bos <jpbos@mtu.edu>

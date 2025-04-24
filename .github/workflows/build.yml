@@ -3,7 +3,9 @@ name: build
 on:
   push:
     branches:
-      - master, thermaltrack, codmax
+      - master
+      - thermaltrack
+      - codmax
   workflow_dispatch: {}
   repository_dispatch: {}
 

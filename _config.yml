@@ -22,8 +22,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ThermalTrack"
 description              : "RGB-Thermal fusion for wheel track detection in adverse conditions."
-baseurl                  : "/thermaltrack"  # Only the subpath
-url                      : "https://yimingyang-mtu.github.io/profilo.github.io"  # Full base URL
+baseurl                  : "/profilo.github.io/thermaltrack"  # Same as repo name
+url                      : "https://YimingYang-MTU.github.io"
 repository               : "YimingYang-MTU/profilo.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"

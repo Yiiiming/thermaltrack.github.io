@@ -4,7 +4,7 @@ main:
     url: https://yimingyang-mtu.github.io/profilo.github.io/
 
   - title: "Research"
-    url: "/"
+    url: "/research/"
     children:                
       - title: "ThermalTrack"
         url: /research_thermaltrack/
@@ -12,7 +12,7 @@ main:
         url: /research_codmax/
 
   - title: "Projects"
-    url: "/"
+    url: "/projects/"
     children:                
       - title: "ADII"
         url: /project_ADII/
@@ -20,7 +20,7 @@ main:
         url: /project_v2x/
 
   - title: "Enterprise"
-    url: "/"
+    url: "/enterprise/"
     children:                
       - title: "Controls"
         url: /controls/

@@ -327,3 +327,6 @@ defaults:
       comments: # true
       share: true
       related: true
+
+home:
+  show_posts: false  # Hides "Recent Posts"

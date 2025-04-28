@@ -1,12 +1,31 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: https://yimingyang-mtu.github.io/profilo.github.io/
+
+  - title: "Research"
+    url: "/"
+    children:                
+      - title: "ThermalTrack"
+        url: /research_thermaltrack/
+      - title: "CODMAX"
+        url: /research_codmax/
+
+  - title: "Projects"
+    url: "/"
+    children:                
+      - title: "ADII"
+        url: /project_ADII/
+      - title: "V2X"
+        url: /project_v2x/
+
+  - title: "Enterprise"
+    url: "/"
+    children:                
+      - title: "Controls"
+        url: /controls/
+      - title: "Safety & testing"
+        url: /safety_testing/
+
+  - title: "RASL"
+    url: /rasl/

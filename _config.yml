@@ -330,3 +330,8 @@ defaults:
 
 home:
   show_posts: false  # Hides "Recent Posts"
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
